@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: "36 - Lui offrir des technologies avanc\xE9"
+  m_EditorClassIdentifier: 
+  text: "Vous: Nous avons beaucoup de technologie tr\xE8s avanc\xE9, je peux vous
+    assurer que cela vous sera tr\xE8s utile.\r\n\r\nAlien: C'est d'accord montre
+    moi ces technologie avanc\xE9."
+  title: "Lui offrir des technologies avanc\xE9"
+  nextText1: {fileID: 11400000, guid: 7d278c1a17745ed45b1d8acf45a2a948, type: 2}
+  nextText2: {fileID: 11400000, guid: 3e041793935b0ed429265b98ff444635, type: 2}
+  nextText3: {fileID: 0}

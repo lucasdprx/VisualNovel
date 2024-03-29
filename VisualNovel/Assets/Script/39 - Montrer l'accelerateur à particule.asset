@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: "39 - Montrer l'accelerateur \xE0 particule"
+  m_EditorClassIdentifier: 
+  text: "(Vous l'amenez \xE0 un accelerateur de particules)\r\n\r\nVous: Voici l'accelerateur
+    de particules, on fait collisioner des particules \xE0 des vitesses tr\xE8s \xE9lev\xE9
+    pour etudier leur propri\xE9t\xE9 et produire une grande quantit\xE9 d'energie.\r\n\r\nAlien:
+    Sa a l'air tr\xE8s interessant cette accelerateur de particule\r\n\r\n(Finalement,
+    apr\xE8s de longues n\xE9gociations, un accord fut conclu. Les humains s'engageaient
+    \xE0 partager leurs ressources et en \xE9change, l'alien fournirait une assistance
+    technologique avanc\xE9e pour aider l'humanit\xE9 \xE0 relever les d\xE9fis environnementaux
+    et \xE9nerg\xE9tiques auxquels elle \xE9tait confront\xE9e)."
+  title: "Montrer l'accelerateur \xE0 particule"
+  nextText1: {fileID: 11400000, guid: 896e0788088d0184f927ff248d6c991c, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

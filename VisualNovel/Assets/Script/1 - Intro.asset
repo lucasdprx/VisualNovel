@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 1 - Intro
+  m_EditorClassIdentifier: 
+  text: "En l'an 2042, la Terre se retrouvait face \xE0 une menace d'une ampleur
+    inimaginable. Un extraterrestre, venu d'une plan\xE8te lointaine, avait annonc\xE9
+    son intention de d\xE9truire notre plan\xE8te. Le motif ? La pollution excessive
+    que les humains avaient g\xE9n\xE9r\xE9e dans le syst\xE8me solaire."
+  title: Intro
+  nextText1: {fileID: 11400000, guid: 95f3387892b5898489cba2310eafe84d, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

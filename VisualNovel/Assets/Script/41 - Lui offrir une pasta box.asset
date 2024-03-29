@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 41 - Lui offrir une pasta box
+  m_EditorClassIdentifier: 
+  text: "(l'alien goute la pasta box) \r\nAlien: Quelle gr\xE2ce ! J'ai jamais mang\xE9
+    quelque chose d'aussi bon de ma vie.\r\nCependant cela ne sera pas suffisant,
+    il me faut plus !"
+  title: Lui offrir une pasta box
+  nextText1: {fileID: 11400000, guid: 67b91a0f132645145b1867235b11b425, type: 2}
+  nextText2: {fileID: 11400000, guid: 7f1baea45cabf4e44a1cedf86d5c0c00, type: 2}
+  nextText3: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 10 - Reponse defiante
+  m_EditorClassIdentifier: 
+  text: "Vous: Alien, si vous cherchez \xE0 d\xE9fier notre monde, vous trouverez
+    une r\xE9sistance farouche. Nous ne permettrons pas que notre plan\xE8te soit
+    d\xE9truite sans combattre. \xCAtes-vous pr\xEAt \xE0 affronter les cons\xE9quences
+    de vos actions ?\r\n\r\nAlien: Humain, vous vous trompez si vous pensez pouvoir
+    nous arr\xEAter aussi facilement. Nous avons \xE9tudi\xE9 votre plan\xE8te et
+    sommes pr\xEAts \xE0 affronter toute r\xE9sistance. Si vous choisissez le chemin
+    de la confrontation, vous d\xE9couvrirez que nous ne reculerons devant rien pour
+    atteindre notre objectif."
+  title: Reponse defiante
+  nextText1: {fileID: 11400000, guid: 15f6ffb13abf5d247bad6444a2d31f0e, type: 2}
+  nextText2: {fileID: 11400000, guid: c598e39febd845c41bc134644e2e2e35, type: 2}
+  nextText3: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 43 - Lui offrir un menu Mcdo
+  m_EditorClassIdentifier: 
+  text: "(l'alien mange le menu mcdo)\r\n\r\nAlien: C'est ignoble ! (Il vomi partout
+    sur le sol) \r\nC'est d\xE9cid\xE9, cette terre doit disparaitre \xE0 tout jamais
+    !\r\nAdieu.\r\n\r\nVous: Nonnnnnn"
+  title: Lui offrir un menu Mcdo
+  nextText1: {fileID: 11400000, guid: 662d7b7ba50be7f4b892093e36bda1dd, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

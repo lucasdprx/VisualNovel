@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: "19 - Lui expliqu\xE9 les cons\xE9quences \xE0 long terme"
+  m_EditorClassIdentifier: 
+  text: "Vous: Si vous faites cela, la destruction de la Terre pourrait isoler l'esp\xE8ce
+    alien du reste de la galaxie. Les autres civilisations pourraient craindre de
+    coop\xE9rer ou d'interagir avec eux, de peur de subir le m\xEAme sort que la
+    Terre.  Je vous deconseille fortement de la detruire.\r\n\r\nAlien: Je n'ai que
+    faire d'etre isol\xE9 de la galaxie, j'agis pour le bien du systeme solaire.\r\n\r\nVous:
+    Vous n'\xEAtes pas oblig\xE9s de choisir la destruction. Il y a toujours une
+    alternative, une voie vers la coop\xE9ration et le partage. Nous pouvons trouver
+    des compromis qui r\xE9pondent \xE0 vos besoins sans sacrifier la vie sur Terre.\r\n\r\nAlien:
+    Vous semblez confiant, qu'avez vous a propos\xE9 comme solution pour que vous
+    ne polluez plus le systeme solaire ?\r\n\r\nVous : Laissez nous quelque mois
+    pour nous pr\xE9parer\r\n\r\nAlien: C'est d'accord"
+  title: "Lui expliqu\xE9 les cons\xE9quences \xE0 long terme"
+  nextText1: {fileID: 11400000, guid: 392dce3a867fe86458c5656e00fe0de2, type: 2}
+  nextText2: {fileID: 11400000, guid: 570192d6ab3a44340af6a41eb8f102f6, type: 2}
+  nextText3: {fileID: 0}

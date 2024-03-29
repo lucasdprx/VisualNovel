@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 5 - Etre d'accord avec lui
+  m_EditorClassIdentifier: 
+  text: "Vous: Je suis totalement d'accord avec vous notre plan\xE8te et un danger
+    pour le syst\xE8me solaire, elle doit \xEAtre detruite le plus rapidement possible.\r\n\r\nAlien:
+    En voila un bon Humain ! Je suis pr\xEAt a vous faire une propositions :\r\n\r\n            
+    - Rejoingnez nous et vivez sur notre plan\xE8te a nous\r\n             - Ou mourrez
+    comme tous les autres humains de votre plan\xE8te"
+  title: Etre d'accord avec lui
+  nextText1: {fileID: 11400000, guid: 0f015844c222dce4e9739c1f168d20f7, type: 2}
+  nextText2: {fileID: 11400000, guid: f25a318ac4476b94eaec66412d16edb7, type: 2}
+  nextText3: {fileID: 0}

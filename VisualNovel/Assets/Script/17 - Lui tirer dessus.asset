@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 17 - Lui tirer dessus
+  m_EditorClassIdentifier: 
+  text: (Il esquive la balle et vous explose en mille morceau)
+  title: Lui tirer dessus
+  nextText1: {fileID: 11400000, guid: 720b5820d0be3814a9dd5f8cbbea6cc0, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

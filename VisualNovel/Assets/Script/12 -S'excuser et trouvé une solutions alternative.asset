@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: "12 -S'excuser et trouv\xE9 une solutions alternative"
+  m_EditorClassIdentifier: 
+  text: "Vous: Je suis d\xE9sol\xE9 si cela \xE0 pus vous offusquer mais cependant,
+    vous avez tort de consid\xE9rer la Terre comme une menace. Si vous cherchez la
+    paix, nous devons trouver un moyen de coop\xE9rer plut\xF4t que de nous affronter.\r\n\r\nAlien:
+    Alien: Nous n'avons aucun d\xE9sir de verser le sang. Notre intention n'est pas
+    de causer des souffrances inutiles. Cependant, nous devons agir pour prot\xE9ger
+    notre galaxie. Peut-\xEAtre qu'en travaillant ensemble, nous pourrions trouver
+    une solution qui pr\xE9serve \xE0 la fois votre plan\xE8te et nos int\xE9r\xEAts.
+    Quelles solutions me proposez vous ?"
+  title: "S'excuser et trouv\xE9 une solutions alternative"
+  nextText1: {fileID: 11400000, guid: fd37a131364f1c141b2fa6811de9e78f, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

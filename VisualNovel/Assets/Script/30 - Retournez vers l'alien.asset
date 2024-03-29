@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: 30 - Retournez vers l'alien
+  m_EditorClassIdentifier: 
+  text: "Alien: Je constate que la pollution \xE0 diminu\xE9 de 56%, je pense que
+    je vais vous faire confiance sur le reste mais si je remarque que la pollution
+    redeviens comme avant, je n'hesiterais pas \xE0 detruire votre plan\xE8te\r\n\r\nVous
+    : Compt\xE9 sur nous Alien, nous ne vous d\xE9cevrons pas \r\n\r\nAlien: D'accord,
+    Adieu Humain."
+  title: Retournez vers l'alien
+  nextText1: {fileID: 11400000, guid: e5d77492ac4a7af42a2595c875c5decc, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}

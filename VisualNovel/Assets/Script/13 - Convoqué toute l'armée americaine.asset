@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
+  m_Name: "13 - Convoqu\xE9 toute l'arm\xE9e americaine"
+  m_EditorClassIdentifier: 
+  text: "(1 heures plus tard, un combat epique eclata entre l'arm\xE9e am\xE9ricaine
+    et l'alien tueur de plan\xE8te)\r\n\r\nAlien: La puissance que vous deployez
+    est phenomenale, je ne peux rien faire face a vous !\r\nNe me tuez pas je vous
+    en supplie, je promet de ne plus revenir sur cette plan\xE8te.\r\n\r\nVous: Nous
+    somme sauv\xE9 !"
+  title: "Convoqu\xE9 toute l'arm\xE9e americaine"
+  nextText1: {fileID: 11400000, guid: 59f83e3c27d10dc46ba62032a7c49d51, type: 2}
+  nextText2: {fileID: 0}
+  nextText3: {fileID: 0}
