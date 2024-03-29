@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
   m_Name: 18 - Fin - Vous mourrez et la Terre Explose
   m_EditorClassIdentifier: 
-  text: Fin - Vous mourrez et la Terre Explose
+  text: Fin - Vous mourrez et la Terre explose
   title: Fin - Vous mourrez et la Terre Explose
   nextText1: {fileID: 0}
   nextText2: {fileID: 0}

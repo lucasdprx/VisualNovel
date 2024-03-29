@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
   m_Name: "27 - Fin - La terre \xE0 explos\xE9"
   m_EditorClassIdentifier: 
-  text: "Fin - La terre \xE0 explos\xE9"
+  text: "Fin - La terre a explos\xE9"
   title: "Fin - La terre \xE0 explos\xE9"
   nextText1: {fileID: 0}
   nextText2: {fileID: 0}
