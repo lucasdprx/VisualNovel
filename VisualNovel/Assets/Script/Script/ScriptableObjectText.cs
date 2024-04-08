@@ -9,4 +9,5 @@ public class ScriptableObjectText : ScriptableObject
     public ScriptableObjectText nextText1;
     public ScriptableObjectText nextText2;
     public ScriptableObjectText nextText3;
+    public int end;
 }

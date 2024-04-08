@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ShowText : MonoBehaviour
 {
@@ -14,6 +17,7 @@ public class ShowText : MonoBehaviour
     [SerializeField] private GameObject Button1;
     [SerializeField] private GameObject Button2;
     [SerializeField] private GameObject Button3;
+    [SerializeField] private GameObject ButtonEnd;
 
     private int _index = 0;
     [SerializeField] private float _speedText;
@@ -21,13 +25,26 @@ public class ShowText : MonoBehaviour
     private List<Vector3> initPos = new();
     void Start()
     {
-        textGlobal.text = objectText.text;
+        StartCoroutine(SetSize(objectText.text));
         textChoice1.text = objectText.nextText1.title;
 
         initPos.Add(Button1.transform.position);
         initPos.Add(Button2.transform.position);
+        ShowButton();
     }
 
+    IEnumerator SetSize(string objectText)
+    {
+        float size = 0.0f;
+        textGlobal.enableAutoSizing = true;
+        textGlobal.text = objectText;
+        yield return new WaitForNextFrameUnit();
+        size = textGlobal.fontSize;
+        textGlobal.enableAutoSizing = false;
+        textGlobal.fontSize = size;
+        textGlobal.text = "";
+        StartCoroutine(AnimationText(objectText));
+    }
 
 
     IEnumerator AnimationText(string objectText)
@@ -52,7 +69,7 @@ public class ShowText : MonoBehaviour
             objectText = objectText.nextText1;
             RefreshText();
             ShowButton();
-            StartCoroutine(AnimationText(objectText.text));
+            StartCoroutine(SetSize(objectText.text));
         }
     }
 
@@ -66,7 +83,7 @@ public class ShowText : MonoBehaviour
             objectText = objectText.nextText2;
             RefreshText();
             ShowButton();
-            StartCoroutine(AnimationText(objectText.text));
+            StartCoroutine(SetSize(objectText.text));
         }
     }
 
@@ -80,7 +97,7 @@ public class ShowText : MonoBehaviour
             objectText = objectText.nextText3;
             RefreshText();
             ShowButton();
-            StartCoroutine(AnimationText(objectText.text));
+            StartCoroutine(SetSize(objectText.text));
         }
     }
 
@@ -107,7 +124,8 @@ public class ShowText : MonoBehaviour
             Button1.SetActive(false);
             Button2.SetActive(false);
             Button3.SetActive(false);
-        }
+            PlayerPrefs.SetInt("Fin " + objectText.end.ToString(), 1);
+            ButtonEnd.SetActive(true);        }
         else if (objectText.nextText3 == null && objectText.nextText2 == null)
         {
             Button3.SetActive(false);
@@ -129,5 +147,14 @@ public class ShowText : MonoBehaviour
 
         Button1.transform.position = initPos[0];
         Button2.transform.position = initPos[1];
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("SceneLucasDarpeix");
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
