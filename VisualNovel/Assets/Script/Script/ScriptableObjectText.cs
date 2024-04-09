@@ -10,4 +10,5 @@ public class ScriptableObjectText : ScriptableObject
     public ScriptableObjectText nextText2;
     public ScriptableObjectText nextText3;
     public int end;
+    public Sprite backGround;
 }
