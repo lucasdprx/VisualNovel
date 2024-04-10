@@ -23,8 +23,11 @@ public class ShowText : MonoBehaviour
     [SerializeField] private float _speedText;
 
     private List<Vector3> initPos = new();
+
+    [SerializeField] private Image _backGround;
     void Start()
     {
+        _backGround.sprite = objectText.backGround;
         StartCoroutine(SetSize(objectText.text));
         textChoice1.text = objectText.nextText1.title;
 
@@ -103,6 +106,7 @@ public class ShowText : MonoBehaviour
 
     public void RefreshText()
     {
+        _backGround.sprite = objectText.backGround;
         if (objectText.nextText1 != null)
             textChoice1.text = objectText.nextText1.title;
         else
