@@ -21,7 +21,7 @@ public class EndImage : MonoBehaviour
             }
             else
             {
-                _imageEnd[i].color = Color.black;
+                _imageEnd[i].color = new Color(0.32f, 0.32f, 0.32f, 1);
             }
         }
     }

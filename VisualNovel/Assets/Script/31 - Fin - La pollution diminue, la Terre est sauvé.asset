@@ -18,3 +18,4 @@ MonoBehaviour:
   nextText2: {fileID: 0}
   nextText3: {fileID: 0}
   end: 7
+  backGround: {fileID: 21300000, guid: 9f425063049c59a43987fa4ffa9e0f9a, type: 3}
