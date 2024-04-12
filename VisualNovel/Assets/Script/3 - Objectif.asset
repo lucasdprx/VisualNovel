@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f35df473d0ed1409e6f62d502c2068, type: 3}
   m_Name: 3 - Objectif
   m_EditorClassIdentifier: 
-  text: "Convaincre l'aliens de ne pas detruire la plan\xE8te Terre"
+  text: "Convaincre l'alien de ne pas detruire la plan\xE8te Terre"
   title: Objectif
   nextText1: {fileID: 11400000, guid: 3a4d08df5ce90744ebac8f7d29cc648f, type: 2}
   nextText2: {fileID: 0}
