@@ -41,9 +41,7 @@ public class ShowText : MonoBehaviour
         float size = 0.0f;
         textGlobal.enableAutoSizing = true;
         textGlobal.text = objectText;
-        textGlobal.gameObject.SetActive(false);
         yield return new WaitForNextFrameUnit();
-        textGlobal.gameObject.SetActive(true);
         size = textGlobal.fontSize;
         textGlobal.enableAutoSizing = false;
         textGlobal.fontSize = size;

@@ -2970,6 +2970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _settingsWindow: {fileID: 845536051}
   _archiveWindow: {fileID: 228226177}
+  _sliderSFX: {fileID: 1967425463}
   _button:
   - {fileID: 1222831535}
   - {fileID: 337544486}

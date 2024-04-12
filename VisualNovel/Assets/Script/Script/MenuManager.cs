@@ -8,6 +8,7 @@ public class MenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject _settingsWindow;
     [SerializeField] private GameObject _archiveWindow;
+    [SerializeField] private Slider _sliderSFX;
 
     [SerializeField] private List<GameObject> _button = new();
     [SerializeField] private GameObject _title;
@@ -27,6 +28,7 @@ public class MenuManager : MonoBehaviour
     }
     public void StartGame()
     {
+        PlayerPrefs.SetFloat("SFX", _sliderSFX.value);
         SceneManager.LoadScene("SceneLucasDarpeix");
     }
     public void Option()
