@@ -28,6 +28,7 @@ public class EndImage : MonoBehaviour
 
     public void ResetEnd()
     {
+        AudioManager.Instance.PlaySong("Button");
         for (int i = 0; i < _imageEnd.Count; i++)
         {
             PlayerPrefs.SetInt("Fin " + (i + 1).ToString(), 0);

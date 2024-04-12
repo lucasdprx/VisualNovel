@@ -30,7 +30,7 @@ public class GamePaused : MonoBehaviour
     }
     public void Resume()
     {
-        //AudioManager.Instance.PlaySong("Button");
+        AudioManager.Instance.PlaySong("Button");
         if (Time.timeScale > 0.1f)
         {
             _gamePaused.SetActive(true);
@@ -54,7 +54,7 @@ public class GamePaused : MonoBehaviour
 
     public void Option()
     {
-        //AudioManager.Instance.PlaySong("Button");
+        AudioManager.Instance.PlaySong("Button");
 
         _settingMenu.SetActive(true);
         _buttonMainMenu.gameObject.SetActive(false);
@@ -64,7 +64,7 @@ public class GamePaused : MonoBehaviour
 
     public void CloseOption()
     {
-        //AudioManager.Instance.PlaySong("Button");
+        AudioManager.Instance.PlaySong("Button");
         _settingMenu.SetActive(false);
         _buttonMainMenu.gameObject.SetActive(true);
         _buttonOption.gameObject.SetActive(true);

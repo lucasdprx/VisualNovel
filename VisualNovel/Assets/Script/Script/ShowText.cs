@@ -66,6 +66,7 @@ public class ShowText : MonoBehaviour
     {
         if (objectText.nextText1 != null)
         {
+            AudioManager.Instance.PlaySong("Button");
             StopAllCoroutines();
             _index = 0;
             textGlobal.text = "";
@@ -80,6 +81,7 @@ public class ShowText : MonoBehaviour
     {
         if (objectText.nextText2 != null)
         {
+            AudioManager.Instance.PlaySong("Button");
             StopAllCoroutines();
             _index = 0;
             textGlobal.text = "";
@@ -94,6 +96,7 @@ public class ShowText : MonoBehaviour
     {
         if (objectText.nextText3 != null)
         {
+            AudioManager.Instance.PlaySong("Button");
             StopAllCoroutines();
             _index = 0;
             textGlobal.text = "";

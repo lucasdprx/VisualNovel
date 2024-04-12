@@ -16,6 +16,7 @@ public class FadeOut : MonoBehaviour
     }
     public void StartAnimation()
     {
+        AudioManager.Instance.PlaySong("Button");
         Time.timeScale = 1.0f;
         _image.gameObject.SetActive(true);
         _animation = true;

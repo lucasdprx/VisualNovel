@@ -33,21 +33,25 @@ public class MenuManager : MonoBehaviour
     }
     public void Option()
     {
+        AudioManager.Instance.PlaySong("Button");
         _settingsWindow.SetActive(true);
         DisableButton(false);
     }
     public void CloseOption()
     {
+        AudioManager.Instance.PlaySong("Button");
         _settingsWindow.SetActive(false);
         DisableButton(true);
     }
     public void Archive()
     {
+        AudioManager.Instance.PlaySong("Button");
         _archiveWindow.SetActive(true);
         DisableButton(false);
     }
     public void CloseArchive()
     {
+        AudioManager.Instance.PlaySong("Button");
         _archiveWindow.SetActive(false);
         DisableButton(true);
     }
