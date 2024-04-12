@@ -41,7 +41,9 @@ public class ShowText : MonoBehaviour
         float size = 0.0f;
         textGlobal.enableAutoSizing = true;
         textGlobal.text = objectText;
+        textGlobal.gameObject.SetActive(false);
         yield return new WaitForNextFrameUnit();
+        textGlobal.gameObject.SetActive(true);
         size = textGlobal.fontSize;
         textGlobal.enableAutoSizing = false;
         textGlobal.fontSize = size;
@@ -138,8 +140,6 @@ public class ShowText : MonoBehaviour
         else if (objectText.nextText3 == null)
         {
             Button3.SetActive(false);
-            Button2.transform.position += new Vector3((Button1.transform.position.x - Button2.transform.position.x) / 2, 0, 0);
-            Button1.transform.position += new Vector3((Button3.transform.position.x - Button1.transform.position.x) / 2, 0, 0);
         }
     }
 
@@ -148,14 +148,6 @@ public class ShowText : MonoBehaviour
         Button1.SetActive(true);
         Button2.SetActive(true);
         Button3.SetActive(true);
-
-        Button1.transform.position = initPos[0];
-        Button2.transform.position = initPos[1];
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene("SceneLucasDarpeix");
     }
     public void MainMenu()
     {
